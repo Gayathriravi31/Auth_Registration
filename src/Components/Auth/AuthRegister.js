@@ -49,7 +49,7 @@ const AuthRegister = ({ title, subtitle, subtext }) => {
               variant="outlined"
               fullWidth
               value={name}
-              onChange={(e) => {setName(e.target.value);c}}
+              onChange={(e) => {setName(e.target.value);}}
             />
             <CustomFormLabel htmlFor="email">Email Adddress</CustomFormLabel>
             <CustomTextField
